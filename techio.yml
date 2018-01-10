@@ -1,4 +1,4 @@
-title: Simple C# Template
+title: C# Professional - Processing Text
 plan:
-- title: C# Snippet
-  statement: statement.md
+- title: Working with Strings and Encoding
+  statement: markdowns/strings-encoding.md
