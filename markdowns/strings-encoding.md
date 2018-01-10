@@ -32,6 +32,7 @@ You can include specific Unicode characters in a `String` using the syntax `\u03
 // { autofold 
 using System;
 using System.Text;
+using System.Collections.Generic;
 
 class Example 
 {
