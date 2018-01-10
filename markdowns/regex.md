@@ -107,3 +107,33 @@ class Example
 }
 // }
 ```
+
+You can define anchors to match the beginning or the end of the text or a word.
+
+| Anchor | Definition |
+|---------|---------------------|
+| `^` | Will match the beginning of the text |
+| `$` | Will match the end of the text |
+| `\b` | Will match the boundary of a word (beginning or end) |
+
+```C# runnable
+// { autofold
+using System;
+using System.Text.RegularExpressions;
+
+class Example 
+{
+    static void Main()
+    {
+// }
+        // This pattern will match all text that starts with 'he'
+        var regularExpression = new Regex("^he");
+
+        Console.WriteLine($"IsMatch 'hello': {regularExpression.IsMatch("hello")}");
+        Console.WriteLine($"IsMatch 'chemical': {regularExpression.IsMatch("chemical")}");
+        Console.WriteLine($"IsMatch 'he left': {regularExpression.IsMatch("he left")}");
+// { autofold 
+    }
+}
+// }
+```

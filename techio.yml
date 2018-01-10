@@ -2,5 +2,11 @@ title: C# Professional - Processing Text
 plan:
 - title: Working with Strings and Encoding
   statement: markdowns/strings-encoding.md
-- title: Regular Expressions
+- title: Regular Expressions - Basics
   statement: markdowns/regex.md
+- title: Regular Expressions - Groups
+  statement: markdowns/regex-groups.md
+- title: Regular Expressions - Captures
+  statement: markdowns/regex-capture.md
+- title: Regular Expressions - Replacing
+  statement: markdowns/regex-replace.md
