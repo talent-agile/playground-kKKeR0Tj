@@ -32,7 +32,6 @@ You can include specific Unicode characters in a `String` using the syntax `\u03
 // { autofold 
 using System;
 using System.Text;
-using System.Collections.Generic;
 
 class Example 
 {
@@ -68,6 +67,7 @@ In order to avoid this scenario, the .Net Framework propose the `StringBuilder`c
 // { autofold
 using System;
 using System.Text;
+using System.Collections.Generic;
 
 class Car 
 {
@@ -81,7 +81,7 @@ class Example
 
     private static List<Car> GetListOfCars()
     {
-        return new[] {
+        return new List<Car> {
             new Car { Brand = "Audi", Model = "A6", Year = 2001 },
             new Car { Brand = "Citroen", Model = "C4 Picasso", Year = 2015 },
             new Car { Brand = "Peugeot", Model = "5008", Year = 2011 },
