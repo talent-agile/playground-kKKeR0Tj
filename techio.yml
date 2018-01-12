@@ -4,9 +4,7 @@ plan:
   statement: markdowns/strings-encoding.md
 - title: Regular Expressions - Basics
   statement: markdowns/regex.md
-- title: Regular Expressions - Groups
+- title: Regular Expressions - Groups & Capture
   statement: markdowns/regex-groups.md
-- title: Regular Expressions - Captures
-  statement: markdowns/regex-capture.md
 - title: Regular Expressions - Replacing
   statement: markdowns/regex-replace.md
