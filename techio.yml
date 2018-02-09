@@ -1,5 +1,7 @@
 title: C# Professional - Processing Text
 plan:
+- title: Introduction
+  statement: markdowns/introduction.md
 - title: Working with Strings and Encoding
   statement: markdowns/strings-encoding.md
 - title: Regular Expressions - Basics
