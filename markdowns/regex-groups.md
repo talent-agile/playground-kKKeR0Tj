@@ -134,7 +134,7 @@ class Example
         var regularExpression = new Regex(@"user_name: (?<username>\w+)");
         var match = regularExpression.Match("user_name: John_Doe");
 
-        Console.WriteLine($"Captured value: {match.Groups[\"username\"].Value}");
+        Console.WriteLine($"Captured value: {match.Groups["username"].Value}");
 // { autofold 
     }
 }
